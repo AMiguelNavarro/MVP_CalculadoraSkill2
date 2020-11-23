@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.OperatorActivityView">
+
+    <EditText
+        android:id="@+id/txtNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Numero 1"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/txtNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Numero 2"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/btRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/btDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dividir" />
+
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="RESULTADO..."
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="RtlCompat" />
+
+
+</LinearLayout>

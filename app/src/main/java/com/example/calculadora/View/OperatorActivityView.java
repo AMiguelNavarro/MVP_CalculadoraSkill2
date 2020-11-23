@@ -1,14 +1,16 @@
-package com.example.calculadora;
+package com.example.calculadora.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.calculadora.R;
+
+public class OperatorActivityView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_operation);
     }
 }
