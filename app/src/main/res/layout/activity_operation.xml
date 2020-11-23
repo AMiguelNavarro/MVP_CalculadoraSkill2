@@ -8,7 +8,7 @@
     tools:context=".View.OperatorActivityView">
 
     <EditText
-        android:id="@+id/txtNumber1"
+        android:id="@+id/etNum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -17,7 +17,7 @@
         android:inputType="number"/>
 
     <EditText
-        android:id="@+id/txtNumber2"
+        android:id="@+id/etNum2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -26,35 +26,39 @@
         android:inputType="number"/>
 
     <Button
-        android:id="@+id/btSumar"
+        android:id="@+id/btAdd"
+        android:onClick="doAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Sumar" />
 
     <Button
-        android:id="@+id/btRestar"
+        android:id="@+id/btSubtract"
+        android:onClick="doSubtract"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Restar" />
 
     <Button
-        android:id="@+id/btMultiplicar"
+        android:id="@+id/btMultiply"
+        android:onClick="doMultiply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Multiplicar" />
 
     <Button
-        android:id="@+id/btDividir"
+        android:id="@+id/btDivide"
+        android:onClick="doDivide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Dividir" />
 
     <TextView
-        android:id="@+id/tvRespuesta"
+        android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
